@@ -6,14 +6,9 @@
 package crud.controladores;
 
 import crud.util.Controller;
-import crud.modelos.Users;
 import crud.vistas.Main;
-import crud.vistas.Usuarios;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.List;
-import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
 
 /**
  *

@@ -7,9 +7,15 @@ package crud.controladores;
 
 import crud.util.Controller;
 import crud.modelos.Users;
+import crud.util.ViewManager;
 import crud.vistas.Usuarios;
+import crud.vistas.usuarios.AddUser;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.HashMap;
 import java.util.List;
 import javax.swing.JDesktopPane;
+import javax.swing.JInternalFrame;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -28,24 +34,26 @@ public class UsuariosController extends Controller {
 
     @Override
     public void showView() {
-        view = new Usuarios();
+
+        view = (Usuarios) ViewManager.getView(Usuarios.class.getName());
         initUsersTable();
         loadActionListeners();
-        view.show();
         view.toFront();
     }
 
     private void initUsersTable() {
-        DefaultTableModel modelo = new UsuariosController.UsuariosTableModel(new Object[][]{}, new String[]{"Id", "Nombre"});
-        usuarios = getUsuarios();
-        usuarios.forEach((usuario) -> {
-            modelo.addRow(new Object[]{usuario.getId(), usuario.getNombre()});
-        });
-
-        view.getjTable1().setModel(modelo);
-        view.getjTable1().getColumn("Id").setMaxWidth(36);
-        mainDesk.add(view);
-
+        if (view == null || view.isClosed()) {
+            view = new Usuarios();
+            DefaultTableModel modelo = (DefaultTableModel) view.getjTable1().getModel();
+            view.getjTable1().getColumn("Id").setMaxWidth(36);
+            usuarios = getUsuarios();
+            usuarios.forEach((usuario) -> {
+                modelo.addRow(new Object[]{usuario.getId(), usuario.getNombre()});
+            });
+            mainDesk.add(view);
+            ViewManager.addView(Usuarios.class.getName(), view);
+            view.setVisible(true);
+        }
     }
 
     private List<Users> getUsuarios() {
@@ -53,29 +61,21 @@ public class UsuariosController extends Controller {
     }
 
     private void loadActionListeners() {
-        
+        view.addUser.addActionListener(showAddUser());
     }
 
-    private class UsuariosTableModel extends DefaultTableModel {
+    private ActionListener showAddUser() {
+        return (ActionEvent e) -> {
 
-        public UsuariosTableModel(Object[][] data, Object[] columnNames) {
-            super(data, columnNames);
-        }
-        Class[] types = new Class[]{
-            java.lang.Integer.class, java.lang.String.class
+            AddUser add;
+            add = (AddUser) ViewManager.getView(AddUser.class.getName());
+            if (add == null || add.isClosed()) {
+                add = new AddUser();
+                mainDesk.add(add);
+                ViewManager.addView(AddUser.class.getName(), add);
+                add.setVisible(true);
+            }
+            add.toFront();
         };
-        boolean[] canEdit = new boolean[]{
-            false, false
-        };
-
-        @Override
-        public Class getColumnClass(int columnIndex) {
-            return types[columnIndex];
-        }
-
-        @Override
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit[columnIndex];
-        }
     }
 }
