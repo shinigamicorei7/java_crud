@@ -6,27 +6,24 @@
 package crud.controladores;
 
 import crud.util.Controller;
-import crud.modelos.Users;
+import crud.modelos.User;
 import crud.util.ViewManager;
 import crud.vistas.Usuarios;
 import crud.vistas.usuarios.AddUser;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
 import java.util.List;
 import javax.swing.JDesktopPane;
-import javax.swing.JInternalFrame;
 import javax.swing.table.DefaultTableModel;
 
 /**
- *
  * @author shinigamicorei7
  */
 public class UsuariosController extends Controller {
 
     private Usuarios view;
     private JDesktopPane mainDesk;
-    private List<Users> usuarios;
 
     public void setMainDesk(JDesktopPane mainDesk) {
         this.mainDesk = mainDesk;
@@ -46,18 +43,19 @@ public class UsuariosController extends Controller {
             view = new Usuarios();
             DefaultTableModel modelo = (DefaultTableModel) view.getjTable1().getModel();
             view.getjTable1().getColumn("Id").setMaxWidth(36);
-            usuarios = getUsuarios();
-            usuarios.forEach((usuario) -> {
+
+            for (User usuario : (List<User>) getUsuarios()) {
                 modelo.addRow(new Object[]{usuario.getId(), usuario.getNombre()});
-            });
+            }
+
             mainDesk.add(view);
             ViewManager.addView(Usuarios.class.getName(), view);
             view.setVisible(true);
         }
     }
 
-    private List<Users> getUsuarios() {
-        return Users.all();
+    private List<User> getUsuarios() {
+        return User.all();
     }
 
     private void loadActionListeners() {

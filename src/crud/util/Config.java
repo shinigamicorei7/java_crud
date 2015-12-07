@@ -6,6 +6,7 @@
 package crud.util;
 
 import crud.Crud;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -18,10 +19,26 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- *
  * @author shinigamicorei7
  */
 public class Config {
+
+    private final HashMap<String, String> params;
+
+    private String configDir;
+
+    public Config() {
+        params = new HashMap<>();
+        params.put("os", System.getProperty("os.name"));
+        params.put("home", System.getProperty("user.home"));
+        params.put("separador", System.getProperty("file.separator"));
+        setConfigDir();
+    }
+
+    public Config(HashMap<String, String> params) {
+        this.params = params;
+        setConfigDir();
+    }
 
     public static boolean importConfig(String text) {
         System.out.println(text);
@@ -41,7 +58,7 @@ public class Config {
                 return false;
             } finally {
                 try {
-                    // Nuevamente aprovechamos el finally para 
+                    // Nuevamente aprovechamos el finally para
                     // asegurarnos que se cierra el fichero.
                     if (null != version) {
                         version.close();
@@ -55,22 +72,6 @@ public class Config {
             return false;
         }
         return true;
-    }
-
-    private final HashMap<String, String> params;
-    private String configDir;
-
-    public Config() {
-        params = new HashMap<>();
-        params.put("os", System.getProperty("os.name"));
-        params.put("home", System.getProperty("user.home"));
-        params.put("separador", System.getProperty("file.separator"));
-        setConfigDir();
-    }
-
-    public Config(HashMap<String, String> params) {
-        this.params = params;
-        setConfigDir();
     }
 
     public boolean existsConfigDir() {
