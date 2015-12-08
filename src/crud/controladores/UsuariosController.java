@@ -106,12 +106,20 @@ public class UsuariosController extends Controller {
         return (ActionEvent e) -> {
             DefaultTableModel modelo = (DefaultTableModel) view.jTable1.getModel();
             int[] rows = view.jTable1.getSelectedRows();
-
+            int[] ids = new int[rows.length];
             for (int i = 0; i < rows.length; i++) {
                 int row = rows[i];
-                int user_id = (int) view.jTable1.getModel().getValueAt(row, 0);
-                if (User.delete(user_id)) {
-                    modelo.removeRow(row);
+                ids[i] = (int) modelo.getValueAt(row, 0);
+            }
+
+            for (int i = 0; i < ids.length; i++) {
+                if (User.delete(ids[i])) {
+                    for (int u = 0; u < modelo.getRowCount(); u++) {
+                        if ((int) modelo.getValueAt(u, 0) == ids[i]) {
+                            modelo.removeRow(u);
+                            break;
+                        }
+                    }
                 }
             }
         };
