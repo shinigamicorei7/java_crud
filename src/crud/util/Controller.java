@@ -11,8 +11,15 @@ package crud.util;
  */
 public abstract class Controller {
 
+    /**
+     * 
+     */
     public abstract void showView();
 
+    /**
+     * Metodo utilizado para cargar los ActionListeners
+     * de para la vista.
+     */
     private void loadActionListeners() {
         throw new UnsupportedOperationException("Not supported yet.");
     }

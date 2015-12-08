@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
- *
  * @author shinigamicorei7
  */
 public class DataBase {
@@ -30,8 +29,16 @@ public class DataBase {
                 Statement statement = connection.createStatement();
                 statement.setQueryTimeout(30);
 
-                statement.executeUpdate("CREATE TABLE users (id integer,name string)");
-                statement.executeUpdate("INSERT INTO users (id,name) VALUES (1,'Admin')");
+                statement.executeUpdate("CREATE TABLE IF NOT EXISTS users(id INTEGER PRIMARY KEY ASC AUTOINCREMENT, name TEXT UNIQUE, role_id INTEGER NOT NULL);");
+                statement.executeUpdate("CREATE TABLE IF NOT EXISTS roles(id INTEGER PRIMARY KEY ASC AUTOINCREMENT, name TEXT NOT NULL UNIQUE, description TEXT);");
+
+                statement.executeUpdate("INSERT INTO roles (name,description) VALUES ('Admin','Administrador Global')");
+                statement.executeUpdate("INSERT INTO roles (name,description) VALUES ('Mod','Moderador principal')");
+                statement.executeUpdate("INSERT INTO roles (name,description) VALUES ('User','Usuario simple')");
+
+                statement.executeUpdate("INSERT INTO users (name,role_id) VALUES ('Bryan',1)");
+                statement.executeUpdate("INSERT INTO users (name,role_id) VALUES ('Israel',2)");
+                statement.executeUpdate("INSERT INTO users (name,role_id) VALUES ('Alex',3)");
             } catch (SQLException e) {
                 JOptionPane.showMessageDialog(null, e.toString(), "Error con el archivo", JOptionPane.ERROR_MESSAGE);
             }

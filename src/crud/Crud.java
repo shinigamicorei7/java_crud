@@ -1,18 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package crud;
 
 import crud.controladores.ConfigController;
 import crud.controladores.MainController;
 import crud.util.Config;
-import crud.vistas.Configuration;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
 /**
@@ -29,15 +19,21 @@ public class Crud {
     public static void main(String[] args) {
 
         try {
-            UIManager.put("Synthetica.window.decoration", false);
-            UIManager.put("Synthetica.extendedFileChooser.enabled", false);
-            UIManager.setLookAndFeel("de.javasoft.plaf.synthetica.SyntheticaBlueSteelLookAndFeel");
+            javax.swing.UIManager.put("Synthetica.window.decoration", false);
+            javax.swing.UIManager.put("Synthetica.extendedFileChooser.enabled", false);
+            javax.swing.UIManager.setLookAndFeel("de.javasoft.plaf.synthetica.SyntheticaBlueSteelLookAndFeel");
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
-            System.out.println("mierda aki esta el error");
+            System.out.println("No se pudo cargar. El look and Feel de Syntetica");
+        } finally {
+            try {
+                javax.swing.UIManager.setLookAndFeel(javax.swing.UIManager.getSystemLookAndFeelClassName());
+            } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
+            }
         }
 
         Config c = new Config();
         boolean exists = c.existsConfigDir();
+
         if (exists) {
             if (c.isCompatible()) {
                 MainController mc = new MainController();
