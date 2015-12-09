@@ -48,53 +48,65 @@ public class ConfigController extends Controller {
     }
 
     private ActionListener importConfig() {
-        return (ActionEvent e) -> {
-            view.directorio.setEnabled(true);
-            view.buscar.setEnabled(true);
+        return new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                view.directorio.setEnabled(true);
+                view.buscar.setEnabled(true);
+            }
         };
     }
 
     private ActionListener loadConfig() {
-        return (ActionEvent e) -> {
-            ButtonModel button = view.buttonGroup1.getSelection();
-            String caso = button.getActionCommand();
-            boolean resp;
-            switch (caso) {
-                case "import":
-                    resp = Config.importConfig(view.directorio.getText());
-                    break;
-                case "make":
-                    resp = Config.makeConfig();
-                    break;
-                default:
-                    resp = false;
-                    break;
-            }
+        return new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ButtonModel button = view.buttonGroup1.getSelection();
+                String caso = button.getActionCommand();
+                boolean resp;
+                switch (caso) {
+                    case "import":
+                        resp = Config.importConfig(view.directorio.getText());
+                        break;
+                    case "make":
+                        resp = Config.makeConfig();
+                        break;
+                    default:
+                        resp = false;
+                        break;
+                }
 
-            if (resp) {
-                view.dispose();
-                MainController m = new MainController();
-                m.showView();
-            }
+                if (resp) {
+                    view.dispose();
+                    MainController m = new MainController();
+                    m.showView();
+                }
 
+            }
         };
     }
 
     private ActionListener makeConfig() {
-        return (ActionEvent e) -> {
-            view.directorio.setEnabled(false);
-            view.buscar.setEnabled(false);
+        return new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                view.directorio.setEnabled(false);
+                view.buscar.setEnabled(false);
+            }
         };
     }
 
     private ActionListener buscar() {
-        return (ActionEvent e) -> {
-            JFileChooser jf = new JFileChooser();
-            jf.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-            int resp = jf.showSaveDialog(view);
-            if (resp == JFileChooser.APPROVE_OPTION) {
-                File file = jf.getSelectedFile();
-                view.directorio.setText(file.getPath());
+        return new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JFileChooser jf = new JFileChooser();
+                jf.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+                int resp = jf.showSaveDialog(view);
+                if (resp == JFileChooser.APPROVE_OPTION) {
+                    File file = jf.getSelectedFile();
+                    view.directorio.setText(file.getPath());
+                }
             }
         };
     }

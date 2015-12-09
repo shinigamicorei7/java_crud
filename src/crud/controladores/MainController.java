@@ -26,10 +26,13 @@ public class MainController extends Controller {
     }
 
     private ActionListener showUsuarios() {
-        return (ActionEvent e) -> {
-            UsuariosController uc = new UsuariosController();
-            uc.setMainDesk(view.jDesktopPane2);
-            uc.showView();
+        return new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                UsuariosController uc = new UsuariosController();
+                uc.setMainDesk(view.jDesktopPane2);
+                uc.showView();
+            }
         };
     }
 
