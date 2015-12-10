@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46b4839-1f37-4968-b657-924691b1a073" name="Default" comment="" />
+    <list default="true" id="b46b4839-1f37-4968-b657-924691b1a073" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="$PROJECT_DIR$/nbproject/project.properties" />
+    </list>
     <ignored path="java_crud.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -140,11 +143,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/crud/util/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5820399">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -226,25 +229,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/crud/modelos/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.37751678">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#436#437#0" expanded="false" />
-                <element signature="e#461#462#0" expanded="false" />
-                <element signature="e#494#495#0" expanded="false" />
-                <element signature="e#522#523#0" expanded="false" />
-                <element signature="e#560#561#0" expanded="false" />
-                <element signature="e#594#595#0" expanded="false" />
-                <element signature="e#648#649#0" expanded="false" />
-                <element signature="e#694#695#0" expanded="false" />
-                <element signature="e#725#726#0" expanded="false" />
-                <element signature="e#752#753#0" expanded="false" />
-                <element signature="e#792#793#0" expanded="false" />
-                <element signature="e#824#825#0" expanded="false" />
                 <marker date="1449599169205" expanded="true" signature="1021:1061" placeholder="SELECT * FRO..roles..." />
                 <marker date="1449599169205" expanded="true" signature="1749:1763" placeholder="SELECT * FRO..users..." />
                 <marker date="1449599169205" expanded="true" signature="1749:1768" placeholder="SELECT * FRO..roles..." />
@@ -300,7 +290,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-1000" />
+    <option name="y" value="24" />
     <option name="width" value="1280" />
     <option name="height" value="1000" />
   </component>
@@ -315,7 +305,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -438,8 +428,8 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1017,7 +1007,7 @@
       <workItem from="1449588969806" duration="26000" />
       <workItem from="1449589010788" duration="14516000" />
       <workItem from="1449688028458" duration="5185000" />
-      <workItem from="1449752128094" duration="1106000" />
+      <workItem from="1449752128094" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="Agregamos la configuración de los IDEs usados para el desarrollo">
       <created>1449606099054</created>
@@ -1065,10 +1055,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29705000" />
+    <option name="totallyTimeSpent" value="30018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1000" width="1280" height="1000" extended-state="6" />
+    <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1078,7 +1068,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1135,19 +1125,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
             <marker date="1449599169205" expanded="true" signature="1021:1061" placeholder="SELECT * FRO..roles..." />
             <marker date="1449599169205" expanded="true" signature="1749:1763" placeholder="SELECT * FRO..users..." />
             <marker date="1449599169205" expanded="true" signature="1749:1768" placeholder="SELECT * FRO..roles..." />
@@ -1267,19 +1244,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
             <marker date="1449599169205" expanded="true" signature="1021:1061" placeholder="SELECT * FRO..roles..." />
             <marker date="1449599169205" expanded="true" signature="1749:1763" placeholder="SELECT * FRO..users..." />
             <marker date="1449599169205" expanded="true" signature="1749:1768" placeholder="SELECT * FRO..roles..." />
@@ -1577,31 +1541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/crud/modelos/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#461#462#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#560#561#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#752#753#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#824#825#0" expanded="false" />
-            <marker date="1449599169205" expanded="true" signature="1021:1061" placeholder="SELECT * FRO..roles..." />
-            <marker date="1449599169205" expanded="true" signature="1749:1763" placeholder="SELECT * FRO..users..." />
-            <marker date="1449599169205" expanded="true" signature="1749:1768" placeholder="SELECT * FRO..roles..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/crud/modelos/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1646,6 +1585,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36032864">
           <caret line="672" column="61" selection-start-line="672" selection-start-column="61" selection-end-line="672" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1746,9 +1686,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/crud/util/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5820399">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/crud/modelos/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37751678">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1449599169205" expanded="true" signature="1021:1061" placeholder="SELECT * FRO..roles..." />
+            <marker date="1449599169205" expanded="true" signature="1749:1763" placeholder="SELECT * FRO..users..." />
+            <marker date="1449599169205" expanded="true" signature="1749:1768" placeholder="SELECT * FRO..roles..." />
+          </folding>
         </state>
       </provider>
     </entry>
