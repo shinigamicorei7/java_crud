@@ -49,7 +49,6 @@ public class Usuarios extends javax.swing.JInternalFrame {
 
         setClosable(true);
         setIconifiable(true);
-        setMaximizable(true);
         setTitle("Lista de usuarios");
         setToolTipText("");
 
