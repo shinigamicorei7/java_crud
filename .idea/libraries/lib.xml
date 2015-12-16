@@ -1,11 +1,13 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/crud/lib/sqlite-jdbc-3.8.11.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/src/crud/lib/synthetica.jar!/" />
-      <root url="jar://$PROJECT_DIR$/src/crud/lib/syntheticaBlueSteel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.8.11.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/synthetica.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/syntheticaBlueSteel.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.8.11.2.jar!/" />
+    </SOURCES>
   </library>
 </component>

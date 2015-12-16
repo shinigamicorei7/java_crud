@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b46b4839-1f37-4968-b657-924691b1a073" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud/lib/sqlite-jdbc-3.8.11.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud/lib/synthetica.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/crud/lib/syntheticaBlueSteel.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="java_crud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/crud/Crud.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -88,10 +91,16 @@
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11086474">
+            <state vertical-scroll-proportion="0.11778563">
               <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -172,6 +181,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,10 +193,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -198,10 +205,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -226,122 +245,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documentos/spelling" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/syntheticaBlueSteel.jar!/" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/nbproject/private/private.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/crud/Crud.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/crud/controladores/ConfigController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/crud/controladores/MainController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/crud/controladores/UsuariosController.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Crud">
     <configuration default="false" name="Crud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -801,6 +706,7 @@
       <workItem from="1449589010788" duration="14516000" />
       <workItem from="1449688028458" duration="5185000" />
       <workItem from="1449752128094" duration="4146000" />
+      <workItem from="1450284919053" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Agregamos la configuración de los IDEs usados para el desarrollo">
       <created>1449606099054</created>
@@ -866,11 +772,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32745000" />
+    <option name="totallyTimeSpent" value="33099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="1000" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -879,10 +785,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1953125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19529983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -956,16 +862,6 @@
           <folding>
             <element signature="e#0#2979#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <marker date="1449606007241" expanded="true" signature="845:858" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:963" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:964" placeholder="CREATE TABLE..users..." />
-            <marker date="1449606007241" expanded="true" signature="1009:1128" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="1175:1251" placeholder="INSERT INTO ..." />
-            <marker date="1449606007241" expanded="true" signature="1296:1369" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1414:1483" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1529:1580" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1625:1677" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1722:1772" placeholder="INSERT INTO users..." />
           </folding>
         </state>
       </provider>
@@ -997,10 +893,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#655#656#0" expanded="false" />
             <element signature="e#688#689#0" expanded="false" />
-            <marker date="1449752627035" expanded="false" signature="739:750" placeholder=" { " />
-            <marker date="1449752627035" expanded="false" signature="779:785" placeholder=" }" />
-            <marker date="1449752627035" expanded="true" signature="1335:1352" placeholder="{...}" />
-            <marker date="1449752627035" expanded="true" signature="3332:3363" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1026,14 +918,6 @@
             <element signature="e#1212#1213#0" expanded="false" />
             <element signature="e#2640#2641#0" expanded="false" />
             <element signature="e#2685#2686#0" expanded="false" />
-            <marker date="1449604465837" expanded="true" signature="1395:1427" placeholder="SELECT * FRO..users..." />
-            <marker date="1449604465837" expanded="true" signature="2145:2164" placeholder="SELECT * FRO..users..." />
-            <marker date="1449604465837" expanded="true" signature="2831:2876" placeholder="INSERT INTO users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3534" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3556" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3569" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="4058:4075" placeholder="DELETE FROM ..." />
-            <marker date="1449604465837" expanded="true" signature="4058:4088" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1072,16 +956,6 @@
           <folding>
             <element signature="e#0#2979#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <marker date="1449606007241" expanded="true" signature="845:858" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:963" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:964" placeholder="CREATE TABLE..users..." />
-            <marker date="1449606007241" expanded="true" signature="1009:1128" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="1175:1251" placeholder="INSERT INTO ..." />
-            <marker date="1449606007241" expanded="true" signature="1296:1369" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1414:1483" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1529:1580" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1625:1677" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1722:1772" placeholder="INSERT INTO users..." />
           </folding>
         </state>
       </provider>
@@ -1132,16 +1006,6 @@
           <folding>
             <element signature="e#0#2979#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <marker date="1449606007241" expanded="true" signature="845:858" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:963" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:964" placeholder="CREATE TABLE..users..." />
-            <marker date="1449606007241" expanded="true" signature="1009:1128" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="1175:1251" placeholder="INSERT INTO ..." />
-            <marker date="1449606007241" expanded="true" signature="1296:1369" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1414:1483" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1529:1580" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1625:1677" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1722:1772" placeholder="INSERT INTO users..." />
           </folding>
         </state>
       </provider>
@@ -1192,16 +1056,6 @@
           <folding>
             <element signature="e#0#2979#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <marker date="1449606007241" expanded="true" signature="845:858" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:963" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:964" placeholder="CREATE TABLE..users..." />
-            <marker date="1449606007241" expanded="true" signature="1009:1128" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="1175:1251" placeholder="INSERT INTO ..." />
-            <marker date="1449606007241" expanded="true" signature="1296:1369" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1414:1483" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1529:1580" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1625:1677" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1722:1772" placeholder="INSERT INTO users..." />
           </folding>
         </state>
       </provider>
@@ -1298,7 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8844827">
           <caret line="2938" column="25" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,14 +1202,6 @@
             <element signature="e#1212#1213#0" expanded="false" />
             <element signature="e#2640#2641#0" expanded="false" />
             <element signature="e#2685#2686#0" expanded="false" />
-            <marker date="1449604465837" expanded="true" signature="1395:1427" placeholder="SELECT * FRO..users..." />
-            <marker date="1449604465837" expanded="true" signature="2145:2164" placeholder="SELECT * FRO..users..." />
-            <marker date="1449604465837" expanded="true" signature="2831:2876" placeholder="INSERT INTO users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3534" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3556" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="3518:3569" placeholder="UPDATE users..." />
-            <marker date="1449604465837" expanded="true" signature="4058:4075" placeholder="DELETE FROM ..." />
-            <marker date="1449604465837" expanded="true" signature="4058:4088" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1383,16 +1228,6 @@
           <folding>
             <element signature="e#0#2979#0" expanded="false" />
             <element signature="imports" expanded="false" />
-            <marker date="1449606007241" expanded="true" signature="845:858" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:963" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="845:964" placeholder="CREATE TABLE..users..." />
-            <marker date="1449606007241" expanded="true" signature="1009:1128" placeholder="CREATE TABLE..IF..." />
-            <marker date="1449606007241" expanded="true" signature="1175:1251" placeholder="INSERT INTO ..." />
-            <marker date="1449606007241" expanded="true" signature="1296:1369" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1414:1483" placeholder="INSERT INTO roles..." />
-            <marker date="1449606007241" expanded="true" signature="1529:1580" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1625:1677" placeholder="INSERT INTO users..." />
-            <marker date="1449606007241" expanded="true" signature="1722:1772" placeholder="INSERT INTO users..." />
           </folding>
         </state>
       </provider>
@@ -1414,10 +1249,6 @@
             <element signature="imports" expanded="false" />
             <element signature="e#655#656#0" expanded="false" />
             <element signature="e#688#689#0" expanded="false" />
-            <marker date="1449752627035" expanded="false" signature="739:750" placeholder=" { " />
-            <marker date="1449752627035" expanded="false" signature="779:785" placeholder=" }" />
-            <marker date="1449752627035" expanded="true" signature="1335:1352" placeholder="{...}" />
-            <marker date="1449752627035" expanded="true" signature="3332:3363" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -1484,17 +1315,23 @@
     <entry file="file://$PROJECT_DIR$/src/crud/Crud.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11086474">
+        <state vertical-scroll-proportion="0.11778563">
           <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+        <state />
       </provider>
     </entry>
   </component>
